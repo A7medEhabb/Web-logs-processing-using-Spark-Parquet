@@ -5,7 +5,7 @@ This project processes **web server access logs** using **Apache Spark**, cleans
 
 The pipeline follows this flow:
 
-![Pipeline](pipeline.png)
+<img width="970" height="288" alt="image" src="https://github.com/user-attachments/assets/ab4dad2c-fc27-487e-bd1f-c34cd23b2d5a" />
 
 `Web Logs → Spark Transformations → Parquet`
 
@@ -13,7 +13,7 @@ The pipeline follows this flow:
 
 
 ## 🚀 Features
-- Parse raw web log data (Apache/Nginx format).
+- Parse raw web log data.
 - Extract fields:
   - Client IP
   - Timestamp
@@ -26,7 +26,6 @@ The pipeline follows this flow:
   - User Agent
 - Convert timestamp to proper Spark `timestamp` type.
 - Handle malformed or missing rows.
-- Partition data by **date** or **status code**.
 - Write output as **compressed Parquet files**.
 
 ---
@@ -35,8 +34,4 @@ The pipeline follows this flow:
 - **Apache Spark (PySpark)** for distributed data processing  
 - **Python** for data cleaning and transformations  
 - **Parquet** for efficient columnar storage  
-- **Power BI / Tableau** (optional) for visualization  
-
----
-
-## 📂 Project Structure
+- **Power BI / Tableau** (optional) for visualization 
