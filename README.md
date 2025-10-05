@@ -5,7 +5,8 @@ This project processes **web server access logs** using **Apache Spark**, cleans
 
 The pipeline follows this flow:
 
-<img width="970" height="288" alt="image" src="https://github.com/user-attachments/assets/ab4dad2c-fc27-487e-bd1f-c34cd23b2d5a" />
+<img width="783" height="189" alt="image" src="https://github.com/user-attachments/assets/770371ac-e060-4477-80f1-822c25f8c408" />
+
 
 `Web Logs → Spark Transformations → Parquet`
 
